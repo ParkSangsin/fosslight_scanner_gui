@@ -57,7 +57,7 @@ linux:
         - x64
         - armv7l
         - arm64
-  maintainer: https://github.com/fosslight/fosslight_gui
+  maintainer: https://github.com/ParkSangsin/fosslight_scanner_gui
   synopsis: FOSSLight Scanner GUI Application
   category: Utility
   artifactName: ${name}-${version}-${arch}-linux.${ext}
@@ -70,7 +70,7 @@ npmRebuild: false
 publish:
   provider: github
   protocol: https
-  owner: fosslight
+  owner: ParkSangsin
   repo: fosslight_scanner_gui
   releaseType: draft
   publishAutoUpdate: true
