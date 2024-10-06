@@ -36,7 +36,7 @@ jobs:
       run: npm run clean
     - name: Build with yarn for ${{ matrix.TARGET }}
       env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_TOKEN: ${{ secrets.TOKEN }}
       run: |
         if [ "${{ matrix.TARGET }}" == "ubuntu" ]; then
           yarn build
